@@ -67,3 +67,8 @@ These methods are used to derive child keys from master key, as you may have gue
 ### cipher() and decipher()
 
 Ciphers and deciphers the block accordingly. For example if T is out block, then to cipher it we would L(S(X(T, K1), and repeat with each child key 
+
+
+## Note
+
+I will not comment the code :-)
