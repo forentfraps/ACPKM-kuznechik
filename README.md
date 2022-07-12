@@ -57,3 +57,13 @@ Xoring 2 strings
 ### _DS() and _DL() 
 
 These are the same methods as their non-D variants, but implemented backwards (used to decrypt the result)
+
+
+### _feistel() and keygen()
+
+These methods are used to derive child keys from master key, as you may have guessed the idea behind is to use the feistel network and previously implemented functions (_S, _L). Feistel network also uses some constants, which were secretly derived by some incredible mathematitians
+
+
+### cipher() and decipher()
+
+Ciphers and deciphers the block accordingly. For example if T is out block, then to cipher it we would L(S(X(T, K1), and repeat with each child key 
