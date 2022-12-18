@@ -36,12 +36,12 @@ It is multiplication in galois field [GF(2^8)], basically multiplying polynomial
 
 ### _M()
 
-Because we are only multiplying numbers from 0x00 to 0xff (from 0 to 255), we are working with a very small number of possible outputs 255^2, thus by precalculating all the results, we end up saving precious computing time
+Because we are only multiplying numbers from 0x00 to 0xff (from 0 to 255), we are working with a very small number of possible outputs 256^2, thus by precalculating all the results, we end up saving precious computing time
 
 
 ### _S()
 
-Is and so-called S-BOX, basically just a bijection table (present in GOST document, its called pi there). The whole reason behind its presence, is to remove linearity, thus exponentially increasing the difficulty to crack the algorithm
+Is a so-called S-BOX, basically just a bijection table (present in GOST document, its called pi there). The whole reason behind its presence, is to remove linearity, thus exponentially increasing the difficulty to crack the algorithm
 
 
 ### _L()
